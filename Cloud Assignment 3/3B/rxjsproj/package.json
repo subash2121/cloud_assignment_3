@@ -1,0 +1,22 @@
+{
+  "name": "rxjsproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "publish":"webpack && webpack-dev-server --output-public=/dev/",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+     "@babel/core": "^7.6.0",
+     "@babel/preset-env": "^7.6.0",
+     "babel-loader": "^8.0.6",
+     "esm": "^3.2.25",
+     "rxjs": "^6.5.3",
+     "webpack": "^4.39.3",
+     "webpack-cli": "^3.3.8",
+     "webpack-dev-server": "^3.8.0"
+  }
+}
